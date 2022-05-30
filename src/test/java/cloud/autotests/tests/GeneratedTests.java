@@ -10,8 +10,6 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-//
-
 public class GeneratedTests extends TestBase {
     @Test
     @Description("Проверка")
