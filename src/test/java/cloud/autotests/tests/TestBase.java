@@ -4,6 +4,7 @@ import cloud.autotests.config.Project;
 import cloud.autotests.helpers.AllureAttachments;
 import cloud.autotests.helpers.DriverSettings;
 import cloud.autotests.helpers.DriverUtils;
+import cloud.autotests.pages.DTFPages;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
@@ -13,9 +14,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+import static com.codeborne.selenide.Selenide.open;
+import static io.qameta.allure.Allure.step;
+
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+
+    DTFPages dtfPages = new DTFPages();
+
     @BeforeAll
     static void beforeAll() {
         DriverSettings.configure();
@@ -24,6 +31,10 @@ public class TestBase {
     @BeforeEach
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
+        step("Open dtf.ru", () -> {
+            open("https://dtf.ru/");
+        });
     }
 
     @AfterEach
