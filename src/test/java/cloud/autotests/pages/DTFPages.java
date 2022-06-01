@@ -36,7 +36,7 @@ public class DTFPages {
 
     public void checkSearchBarByXboxNews () {
         $(".v-text-input__input").setValue("xbox").pressEnter();
-        $(".feed").shouldHave(Condition.text("Мои первые впечатления от Xbox Series X"));
+        $(".feed").shouldHave(Condition.text("Подробности патча 1.5 и версий Cyberpunk 2077 для PS5 и Xbox Series X|S: главное со стрима CD Projekt RED "));
 
     }
 
