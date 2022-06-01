@@ -58,7 +58,7 @@
 > 
 > После завершения прогона отправляются уведомления с помощью бота в <code>Telegram</code>.
 
-## :technologist: Запуск тестов из терминала
+## Запуск тестов из терминала
 
 ### Локальный запуск тестов
 
@@ -97,39 +97,33 @@ test
 ## Главная страница сборки [Jenkins](https://jenkins.autotests.cloud/job/012_Loskutov_homeWork13/)
 
 <p align="center">
-  <img src="images/screens/Jenkins.png">
+  <img src="images/Jenkins.png">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure_Report.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/nexign-page-tests/29/allure/)
+## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/012_Loskutov_homeWork13/6/allure/)
 
-### :pushpin: Главная страница Allure-отчета
+### Главная страница Allure-отчета
 
 <p align="center">
-<img title="Allure Overview" src="images/screens/allure_overview.png">
+<img title="Allure Overview" src="images/AllureReport.png">
 </p>
 
-### :pushpin: Страница с тестами
+### Страница с тестами
 
 <p align="center">
-<img title="Allure Behaviors" src="images/screens/allure_behaviors.png">
+<img title="Allure Behaviors" src="images/AllureTests.png">
 </p>
 
-### :pushpin: Основной дашборд
-
-<p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/allure_overview_dashboard.png">
-</p>
-
-## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+## Уведомления в Telegram с использованием бота
 
 > После завершения сборки бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом.
 <p align="center">
-<img title="Telegram Notifications" src="images/screens/telegram_notifications.png">
+<img title="Telegram Notifications" src="images/Notification.png">
 </p>
 
-## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
+## Пример запуска теста в Selenoid
 
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.gif">
+  <img title="Selenoid Video" src="images/TestGIF.gif">
 </p>
