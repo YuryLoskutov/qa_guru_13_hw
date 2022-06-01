@@ -1,12 +1,12 @@
 # Автоматизированное тестирование сайта DTF
 
-## :page_with_curl:    Содержание
+##  Содержание
 
-➠ [Покрытый функционал](#globe_with_meridians-покрытый-функционал)
+➠ [Покрытый функционал](#покрытый-функционал)
 
-➠ [Технологический стек](#computer-технологический-стек)
+➠ [Технологический стек](#технологический-стек)
 
-➠ [Запуск тестов из терминала](#technologist-запуск-тестов-из-терминала)
+➠ [Запуск тестов из терминала](#запуск-тестов-из-терминала)
 
 ➠ [Удаленный запуск тестов](#удаленный-запуск-тестов)
 
@@ -18,7 +18,7 @@
 
 ➠ [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
 
-## <a name="globe_with_meridians-покрытый-функционал"></a>:globe_with_meridians: Покрытый функционал
+## Покрытый функционал
 
 ### UI
 
@@ -29,7 +29,7 @@
 - [x] Проверка перехода на вкладку Подписки
 - [x] Проверка поля поиска статей
 
-## :computer: Технологический стек
+## Технологический стек
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
@@ -94,7 +94,7 @@ test
 >
 > <code>THREADS</code> – количество потоков.
 
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Главная страница сборки [Jenkins](https://jenkins.autotests.cloud/job/012_Loskutov_homeWork13/)
+## Главная страница сборки [Jenkins](https://jenkins.autotests.cloud/job/012_Loskutov_homeWork13/)
 
 <p align="center">
   <img src="images/screens/Jenkins.png">
