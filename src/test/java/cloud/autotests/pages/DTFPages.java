@@ -40,4 +40,21 @@ public class DTFPages {
 
     }
 
+    public void checkCommentSection () {
+        $(".comments_counter__count").click();
+        $(".comments__content").shouldBe(Condition.visible);
+    }
+
+    public void checkVoteCounter () {
+        $(".vote__actual-value").shouldBe(Condition.visible);
+    }
+
+    public void checkShowMoreButton () {
+        $(".sidebar-tree-list-item--with-image", 5).shouldNotBe(Condition.visible);
+        $(".sidebar-tree-list__show-more-button").click();
+        $(".sidebar-tree-list-item--with-image", 5).shouldBe(Condition.visible);
+        $(".sidebar-tree-list__show-more-button").click();
+        $(".sidebar-tree-list-item--with-image", 5).shouldNotBe(Condition.visible);
+    }
+
 }
