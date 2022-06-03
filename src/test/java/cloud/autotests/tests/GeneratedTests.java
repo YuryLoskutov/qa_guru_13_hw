@@ -55,14 +55,18 @@ public class GeneratedTests extends TestBase {
     @Description("Позитивная проверка наличия счётчика голосов у поста")
     @DisplayName("DTF_vote_counter_check_test")
     void dtfVoteCounterCheckTest() {
+        step("Check vote counter test", () -> {
         dtfPages.checkVoteCounter();
+        });
     }
 
     @Test
     @Description("Проверка разворачивания и сворачивания списка разделов на боковой панели")
     @DisplayName("DTF_show_more_button_check_test")
     void dtfShowMoreButtonCheck () {
+        step("Check 'Ещё' и 'Свернуть' button ", () -> {
         dtfPages.checkShowMoreButton();
+    });
     }
 
 }
